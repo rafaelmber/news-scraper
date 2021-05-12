@@ -1,4 +1,4 @@
-Links = //h2/a/@href
+Links = //h2/a/@href  || //text-fill/a[contains(@class,"Sect")]/@href
 Títulos = //h2[@data-h]/span/text()
 Resumen = //div[@class="lead"]/p/text()
 Cuerpo = //div[@class="html-content"]/p//text()
